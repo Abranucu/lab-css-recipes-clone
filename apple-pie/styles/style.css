@@ -23,6 +23,11 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+body {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
 header {
 background-image: url(../images/apple-pie.jpg);
 background-size: cover;
@@ -33,9 +38,8 @@ align-items: center;
 justify-content: center;
 }
 p {
-  text-align: center;
-  padding: 20px;
-  margin: 5px;
+  text-align: left;
+  padding: 50px 50px 10px 50px;
 }
 h1 {
   text-align: center;
